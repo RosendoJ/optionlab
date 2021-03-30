@@ -1,0 +1,16 @@
+$standard-backgr-color: lightgrey;
+
+img {
+    display: block;
+    width: 250px;
+}
+
+.color-background {
+    background-color: $standard-backgr-color;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    color: blue;
+}
+
