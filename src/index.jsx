@@ -13,3 +13,5 @@ ReactDOM.render(
 );
 
 document.getElementById("icoContainer").appendChild(img);
+
+console.log(`API Base: ${process.env.API_BASE}`);
