@@ -11,10 +11,10 @@ module.exports = merge(
     {
         context: path.join(basePath, "src"),
         resolve: {
-            extensions: [".js", ".ts", ".jsx"]
+            extensions: [".js", ".ts", ".tsx"]
         },
         entry: {
-            app: "./index.jsx", 
+            app: "./index.tsx", 
             appStyles: ["./scssStyles.scss"],
         },
         output: {
@@ -25,7 +25,7 @@ module.exports = merge(
         module: {
             rules: [
                 {
-                    test: /\.jsx?$/,
+                    test: /\.tsx?$/,
                     exclude: /node_modules/,
                     loader: "babel-loader"
                 },
