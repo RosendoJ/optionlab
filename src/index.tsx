@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import imgIco from "./content/icoNLGD.jpg";
+const imgIco = require("./content/icoNLGD.jpg");
 
 const img = document.createElement('img');
 img.src = imgIco;
